@@ -1,0 +1,13 @@
+{
+  "name": "sneake",
+  "version": "1.0.0",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build": "cp -r index.html dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
+
